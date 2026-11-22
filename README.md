@@ -2,11 +2,13 @@
 
 Reduce repeat deliveries and group trace-linked or fingerprint-linked log events into reviewable incident timelines.
 
-[![Verify](https://github.com/oguzhanozfe/log-episode-studio/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/log-episode-studio/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/log-episode-studio) · [Input guide](GUIDE.md)
+**[Open the live demo](https://oguzhanozfe.github.io/log-episode-studio/)** · [![Verify](https://github.com/oguzhanozfe/log-episode-studio/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/log-episode-studio/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/log-episode-studio) · [Input guide](GUIDE.md)
 
 Repeated events make an incident look larger than it was. Group related log records into timelines and retain the original identifiers for investigation.
 
 ![Example result for Log Episode Studio](docs/result.png)
+
+The live demo lets you edit the input, search proposed changes with an on-device model and download the result. [Browser demo details](demo/DEMO.md)
 
 ## Try it
 

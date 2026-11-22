@@ -1,0 +1,24 @@
+{
+  "model": "gemma-4-e4b-it",
+  "provider": "local",
+  "source_sha256": "ef145d7662f4314404463009453967fe168887bf0ab44366db1f87fe7a954218",
+  "considered": 3,
+  "total": 3,
+  "recommendations": [
+    {
+      "id": "episode:evt-101",
+      "evidence_id": "evt-102",
+      "why": "This episode captures the progression from an accepted order request to a critical reservation timeout within the same trace ID."
+    },
+    {
+      "id": "episode:evt-105",
+      "evidence_id": "evt-105",
+      "why": "The single event documents a warning about queue delay in the mailer service, identified by a specific fingerprint."
+    },
+    {
+      "id": "episode:evt-104",
+      "evidence_id": "evt-104",
+      "why": "This episode shows a successful deferred retry event in the orders service, related to trace t-218."
+    }
+  ]
+}
