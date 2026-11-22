@@ -1,0 +1,2 @@
+episode,start_utc,end_utc,peak_severity,unique_events,services
+episode:evt-101,2026-05-11T09:00:00Z,2026-05-11T09:00:12Z,ERROR,2,inventory;orders

@@ -1,0 +1,21 @@
+{
+  "action": "Include episode in incident timeline",
+  "id": "episode:evt-101",
+  "linked_source_records": [
+    "evt-101",
+    "evt-102"
+  ],
+  "choices": {
+    "episode:evt-101": ""
+  },
+  "artifacts": {
+    "incident-timeline.jsonl": {
+      "sha256": "9fcbe06e7dc163e1686fb56f071b566354ef0cc24b0f2a2ddf48afc35f5191b7",
+      "changed_by_approval": true
+    },
+    "episode-index.csv": {
+      "sha256": "e2b4df9c4b67649a029b3d0add85c54ffc8fce554a8d8cd8b694d9b0231a930c",
+      "changed_by_approval": true
+    }
+  }
+}

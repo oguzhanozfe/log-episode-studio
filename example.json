@@ -1,0 +1,45 @@
+{
+  "gap_seconds": 60,
+  "events": [
+    {
+      "id": "evt-101",
+      "timestamp": "2026-05-11T09:00:00Z",
+      "service": "orders",
+      "trace_id": "t-218",
+      "level": "INFO",
+      "message": "Picking request accepted."
+    },
+    {
+      "id": "evt-102",
+      "timestamp": "2026-05-11T09:00:12Z",
+      "service": "inventory",
+      "trace_id": "t-218",
+      "level": "ERROR",
+      "message": "Reservation timed out."
+    },
+    {
+      "id": "evt-102",
+      "timestamp": "2026-05-11T09:00:12Z",
+      "service": "inventory",
+      "trace_id": "t-218",
+      "level": "ERROR",
+      "message": "Reservation timed out."
+    },
+    {
+      "id": "evt-104",
+      "timestamp": "2026-05-11T09:04:30Z",
+      "service": "orders",
+      "trace_id": "t-218",
+      "level": "INFO",
+      "message": "Deferred retry succeeded."
+    },
+    {
+      "id": "evt-105",
+      "timestamp": "2026-05-11T11:00:30+02:00",
+      "service": "mailer",
+      "fingerprint": "buffer-slow",
+      "level": "WARN",
+      "message": "Queue delay exceeded local threshold."
+    }
+  ]
+}

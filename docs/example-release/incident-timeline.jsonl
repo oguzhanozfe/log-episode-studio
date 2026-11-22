@@ -1,0 +1,2 @@
+{"id": "evt-101", "timestamp": "2026-05-11T09:00:00Z", "service": "orders", "trace_id": "t-218", "fingerprint": null, "level": "INFO", "message": "Picking request accepted.", "deliveries": 1, "episode_id": "episode:evt-101"}
+{"id": "evt-102", "timestamp": "2026-05-11T09:00:12Z", "service": "inventory", "trace_id": "t-218", "fingerprint": null, "level": "ERROR", "message": "Reservation timed out.", "deliveries": 2, "episode_id": "episode:evt-101"}
